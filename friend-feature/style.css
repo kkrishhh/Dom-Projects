@@ -42,18 +42,19 @@ html, body {
 
 h5 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: salmon;
-    margin-top: 5px;
+    margin-top: 8px;
     font-weight: 700;
 }
 
-#btn-container {
+.btn-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
     font-size: larger;
     font-weight: 700;
+    
 
 }
 
@@ -62,6 +63,12 @@ h5 {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 #remove {
