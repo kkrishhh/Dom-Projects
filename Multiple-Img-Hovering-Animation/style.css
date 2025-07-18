@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    color: blanchedalmond;
+}
+
+.elem{
+    height: 138px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid white;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.elem h1{
+
+    font-size: 6vw;
+
+}
+
+.elem img{
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    transition: all ease 0.2s;
+    mix-blend-mode:difference;
+    
+}
+
